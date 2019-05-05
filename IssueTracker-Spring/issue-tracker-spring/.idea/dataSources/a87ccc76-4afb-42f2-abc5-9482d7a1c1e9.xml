@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="WorkLogDB">
+  <database-model serializer="dbm" dbms="DERBY" family-id="DERBY" format-version="4.14">
+    <root id="1">
+      <ServerVersion>10.14.2.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="APP">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="JPA">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="1" name="NULLID"/>
+    <schema id="5" parent="1" name="SQLJ"/>
+    <schema id="6" parent="1" name="SYS"/>
+    <schema id="7" parent="1" name="SYSCAT"/>
+    <schema id="8" parent="1" name="SYSCS_DIAG"/>
+    <schema id="9" parent="1" name="SYSCS_UTIL"/>
+    <schema id="10" parent="1" name="SYSFUN"/>
+    <schema id="11" parent="1" name="SYSIBM"/>
+    <schema id="12" parent="1" name="SYSPROC"/>
+    <schema id="13" parent="1" name="SYSSTAT"/>
+    <table id="14" parent="3" name="ADDRESS"/>
+    <table id="15" parent="3" name="EMPLOYEE"/>
+    <table id="16" parent="3" name="EMPLOYEE_PROJECT"/>
+    <table id="17" parent="3" name="ISSUE"/>
+    <table id="18" parent="3" name="LOGBOOKENTRY"/>
+    <table id="19" parent="3" name="PROJECT"/>
+    <table id="20" parent="3" name="PROJECTEMPLOYEE"/>
+    <table id="21" parent="3" name="PROJECTPHASE"/>
+    <column id="22" parent="14" name="ADDRESS">
+      <Position>1</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="14" name="ZIPCODE">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="14" name="CITY">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="25" parent="14" name="SQL190331203800270">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ADDRESS
+ZIPCODE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="26" parent="14" name="SQL190331203800270">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ADDRESS
+ZIPCODE</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="27" parent="15" name="DTYPE">
+      <Position>1</Position>
+      <DataType>VARCHAR(31)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="15" name="ID">
+      <Position>2</Position>
+      <DataType>BIGINT|-5s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="15" name="DATEOFBIRTH">
+      <Position>3</Position>
+      <DataType>DATE|91s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="15" name="FIRSTNAME">
+      <Position>4</Position>
+      <DataType>VARCHAR(30)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="15" name="LASTNAME">
+      <Position>5</Position>
+      <DataType>VARCHAR(30)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="15" name="SALARY">
+      <Position>6</Position>
+      <DataType>DOUBLE|8s</DataType>
+    </column>
+    <column id="33" parent="15" name="ENDDATE">
+      <Position>7</Position>
+      <DataType>DATE|91s</DataType>
+    </column>
+    <column id="34" parent="15" name="HOURLYRATE">
+      <Position>8</Position>
+      <DataType>DOUBLE|8s</DataType>
+    </column>
+    <column id="35" parent="15" name="RENTER">
+      <Position>9</Position>
+      <DataType>VARCHAR(30)|12s</DataType>
+    </column>
+    <column id="36" parent="15" name="STARTDATE">
+      <Position>10</Position>
+      <DataType>DATE|91s</DataType>
+    </column>
+    <column id="37" parent="15" name="ADDRESS_ADDRESS">
+      <Position>11</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="38" parent="15" name="ADDRESS_ZIPCODE">
+      <Position>12</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <index id="39" parent="15" name="SQL190331203800280">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="40" parent="15" name="SQL190331203800361">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ADDRESS_ADDRESS
+ADDRESS_ZIPCODE</ColNames>
+    </index>
+    <key id="41" parent="15" name="SQL190331203800280">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="42" parent="15" name="FKNXSXNGJCA9SCIHQXXBCKI21A5">
+      <ColNames>ADDRESS_ADDRESS
+ADDRESS_ZIPCODE</ColNames>
+      <RefTableName>ADDRESS</RefTableName>
+      <RefKeyName>SQL190330131659340</RefKeyName>
+      <RefColNames>ADDRESS
+ZIPCODE</RefColNames>
+    </foreign-key>
+    <column id="43" parent="16" name="EMPLOYEE_ID">
+      <Position>1</Position>
+      <DataType>BIGINT|-5s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="16" name="PROJECTS_ID">
+      <Position>2</Position>
+      <DataType>BIGINT|-5s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="45" parent="16" name="SQL190331203800300">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>EMPLOYEE_ID
+PROJECTS_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="46" parent="16" name="SQL190331203800390">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>EMPLOYEE_ID</ColNames>
+    </index>
+    <index id="47" parent="16" name="SQL190331203800380">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>PROJECTS_ID</ColNames>
+    </index>
+    <key id="48" parent="16" name="SQL190331203800300">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>EMPLOYEE_ID
+PROJECTS_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="49" parent="16" name="FKSGK44P9YJIX60095WAVBHXDM6">
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <RefTableName>EMPLOYEE</RefTableName>
+      <RefKeyName>SQL190330131659350</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="50" parent="16" name="FKHEJ7V39MDEVOOBM2DUHFHVOJA">
+      <ColNames>PROJECTS_ID</ColNames>
+      <RefTableName>PROJECT</RefTableName>
+      <RefKeyName>SQL190330131659390</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="51" parent="17" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|-5s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="17" name="COMPLETEDPERCENT">
+      <Position>2</Position>
+      <DataType>DOUBLE|8s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="17" name="ESTIMATEDTIME">
+      <Position>3</Position>
+      <DataType>BIGINT|-5s</DataType>
+    </column>
+    <column id="54" parent="17" name="PRIORITY">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="55" parent="17" name="STATE">
+      <Position>5</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+    </column>
+    <column id="56" parent="17" name="EMPLOYEE_ID">
+      <Position>6</Position>
+      <DataType>BIGINT|-5s</DataType>
+    </column>
+    <column id="57" parent="17" name="PROJECT_ID">
+      <Position>7</Position>
+      <DataType>BIGINT|-5s</DataType>
+    </column>
+    <index id="58" parent="17" name="SQL190331203800310">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="59" parent="17" name="SQL190331203800391">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>EMPLOYEE_ID</ColNames>
+    </index>
+    <index id="60" parent="17" name="SQL190331203800410">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>PROJECT_ID</ColNames>
+    </index>
+    <key id="61" parent="17" name="SQL190331203800310">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="62" parent="17" name="FKTASGQD143PRJVOMDX7YVLT0SS">
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <RefTableName>EMPLOYEE</RefTableName>
+      <RefKeyName>SQL190330131659350</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="63" parent="17" name="FKLBHM6G2AL5IWRTD2R2FRP8QCJ">
+      <ColNames>PROJECT_ID</ColNames>
+      <RefTableName>PROJECT</RefTableName>
+      <RefKeyName>SQL190330131659390</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="64" parent="18" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|-5s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="18" name="ACTIVITY">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="18" name="ENDTIME">
+      <Position>3</Position>
+      <DataType>TIMESTAMP|93s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="18" name="STARTTIME">
+      <Position>4</Position>
+      <DataType>TIMESTAMP|93s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="18" name="EMPLOYEE_ID">
+      <Position>5</Position>
+      <DataType>BIGINT|-5s</DataType>
+    </column>
+    <column id="69" parent="18" name="ISSUE_ID">
+      <Position>6</Position>
+      <DataType>BIGINT|-5s</DataType>
+    </column>
+    <column id="70" parent="18" name="PROJECTPHASE_ID">
+      <Position>7</Position>
+      <DataType>BIGINT|-5s</DataType>
+    </column>
+    <index id="71" parent="18" name="SQL190331203800330">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="72" parent="18" name="SQL190331203800411">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>EMPLOYEE_ID</ColNames>
+    </index>
+    <index id="73" parent="18" name="SQL190331203800420">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ISSUE_ID</ColNames>
+    </index>
+    <index id="74" parent="18" name="SQL190331203800440">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>PROJECTPHASE_ID</ColNames>
+    </index>
+    <key id="75" parent="18" name="SQL190331203800330">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="76" parent="18" name="FK375U29UUP72HX3B91FF2BBMIB">
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <RefTableName>EMPLOYEE</RefTableName>
+      <RefKeyName>SQL190330131659350</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="77" parent="18" name="FK71V6KXVGNSN8G6P21QIQY1VQC">
+      <ColNames>ISSUE_ID</ColNames>
+      <RefTableName>ISSUE</RefTableName>
+      <RefKeyName>SQL190330131659361</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="78" parent="18" name="FKMW6A6M924CBKVH8KB3O3N9IO4">
+      <ColNames>PROJECTPHASE_ID</ColNames>
+      <RefTableName>PROJECTPHASE</RefTableName>
+      <RefKeyName>SQL190330131659410</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="79" parent="19" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|-5s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="19" name="TITLE">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="81" parent="19" name="SQL190331203800331">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="82" parent="19" name="SQL190331203800331">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="83" parent="20" name="PROJECTID">
+      <Position>1</Position>
+      <DataType>BIGINT|-5s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="20" name="EMPLOYEEID">
+      <Position>2</Position>
+      <DataType>BIGINT|-5s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="85" parent="20" name="SQL190331203800350">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>PROJECTID
+EMPLOYEEID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="86" parent="20" name="SQL190331203800451">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>PROJECTID</ColNames>
+    </index>
+    <index id="87" parent="20" name="SQL190331203800450">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>EMPLOYEEID</ColNames>
+    </index>
+    <key id="88" parent="20" name="SQL190331203800350">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>PROJECTID
+EMPLOYEEID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="89" parent="20" name="FKT7G8J8L16F57NMBAAWX09MM6E">
+      <ColNames>PROJECTID</ColNames>
+      <RefTableName>PROJECT</RefTableName>
+      <RefKeyName>SQL190330131659390</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="90" parent="20" name="FKSC64LV12GPC9YOG95M4S1VEUM">
+      <ColNames>EMPLOYEEID</ColNames>
+      <RefTableName>EMPLOYEE</RefTableName>
+      <RefKeyName>SQL190330131659350</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="91" parent="21" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|-5s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="21" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|12s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="93" parent="21" name="SQL190331203800360">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="94" parent="21" name="SQL190331203800360">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

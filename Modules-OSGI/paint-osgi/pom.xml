@@ -1,0 +1,114 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>swt6</groupId>
+	<artifactId>paint-osgi</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0</version>
+
+	<properties>
+		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<compiler.plugin.version>3.8.0</compiler.plugin.version>
+    <bundle.plugin.version>4.1.0</bundle.plugin.version>
+		<resources-plugin-version>3.1.0</resources-plugin-version>
+		<dependency-plugin-version>3.1.1</dependency-plugin-version>
+		<javafx.version>11.0.2</javafx.version>
+		<felix.version>6.0.2</felix.version>
+
+		<osgi.deploy.dir>${env.KARAF_BASE}/deploy</osgi.deploy.dir>
+		<osgi.lib.dir>${env.KARAF_BASE}/lib</osgi.lib.dir>
+	</properties>
+
+	<modules>
+		<module>paint-osgi-main</module>
+		<module>paint-osgi-shape</module>
+		<module>paint-osgi-rectangle</module>
+	</modules>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>${compiler.plugin.version}</version>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.felix</groupId>
+					<artifactId>maven-bundle-plugin</artifactId>
+					<version>${bundle.plugin.version}</version>
+					<extensions>true</extensions>
+				</plugin>
+ 			
+				<plugin>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>${resources-plugin-version}</version>
+					<executions>
+						<execution>
+							<id>copy-resources</id>
+							<phase>install</phase>
+							<goals>
+								<goal>copy-resources</goal>
+							</goals>
+							<configuration>
+								<outputDirectory>${osgi.deploy.dir}</outputDirectory>
+								<resources>
+									<resource>
+										<directory>${project.build.directory}</directory>
+										<include>${project.build.finalName}.jar</include>
+									</resource>
+								</resources>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>${dependency-plugin-version}</version>
+				<inherited>false</inherited>
+				<executions>
+					<execution>
+						<phase>install</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<includeGroupIds>org.openjfx</includeGroupIds>
+					<outputDirectory>${osgi.lib.dir}</outputDirectory>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>${javafx.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-swing</artifactId>
+			<version>${javafx.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.felix</groupId>
+			<artifactId>org.apache.felix.framework</artifactId>
+			<version>${felix.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>

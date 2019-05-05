@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1551969599414
+Build-Jdk: 11.0.2
+Built-By: Daniel
+Bundle-Activator: swt6.osgi.shape.rectangle.RectangleActivator
+Bundle-ManifestVersion: 2
+Bundle-Name: paint-osgi-rectangle
+Bundle-SymbolicName: swt6.paint-osgi-rectangle
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: swt6.osgi.shape.rectangle;version="1.0";uses:="javafx.sc
+ ene.canvas,javafx.scene.image,org.osgi.framework,swt6.osgi.shape"
+Import-Package: swt6.osgi.shape;version="[1.0,2.0)",org.osgi.framework;v
+ ersion="[1.3,2.0)",javafx.geometry,javafx.scene.canvas,javafx.scene.ima
+ ge,javafx.scene.paint
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Tool: Bnd-4.1.0.201810181252

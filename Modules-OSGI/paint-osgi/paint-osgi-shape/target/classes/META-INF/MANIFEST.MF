@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1551969598215
+Build-Jdk: 11.0.2
+Built-By: Daniel
+Bundle-ManifestVersion: 2
+Bundle-Name: paint-osgi-shape
+Bundle-SymbolicName: swt6.paint-osgi-shape
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: swt6.osgi.shape;version="1.0";uses:="javafx.geometry,jav
+ afx.scene.canvas,javafx.scene.image"
+Import-Package: javafx.geometry,javafx.scene.canvas,javafx.scene.image
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Tool: Bnd-4.1.0.201810181252

@@ -1,0 +1,11 @@
+swt6\it\domain\ProjectPhase.class
+swt6\it\domain\LogbookEntry.class
+swt6\it\domain\AddressId.class
+swt6\it\domain\Project.class
+swt6\it\domain\Address.class
+swt6\it\domain\Employee.class
+swt6\it\domain\IssuePriority.class
+swt6\it\domain\Issue.class
+swt6\it\domain\TemporaryEmployee.class
+swt6\it\domain\IssueState.class
+swt6\it\domain\PermanentEmployee.class

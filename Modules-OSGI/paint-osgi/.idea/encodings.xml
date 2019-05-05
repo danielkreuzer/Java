@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paint-osgi-circle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paint-osgi-line" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paint-osgi-main" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paint-osgi-rectangle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paint-osgi-shape" charset="UTF-8" />
+  </component>
+</project>

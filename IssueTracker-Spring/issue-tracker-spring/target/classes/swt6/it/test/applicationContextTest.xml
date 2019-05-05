@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
+
+    <!-- ========================= RESOURCE DEFINITIONS ========================= -->
+
+    <context:property-placeholder location="swt6/it/test/jpa.properties"/>
+
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="${database.driverClassName}"/>
+        <property name="url" value="${database.url}"/>
+        <property name="username" value="${database.username}"/>
+        <property name="password" value="${database.password}"/>
+    </bean>
+
+    <bean id="entityManagerFactory"
+          class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="packagesToScan" value="swt6.it.domain"/>
+        <property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
+        </property>
+        <property name="jpaProperties">
+            <props>
+                <prop key="hibernate.dialect">${hibernate.dialect}</prop>
+                <prop key="hibernate.show_sql">false</prop>
+                <prop key="hibernate.format_sql">false</prop>
+                <prop key="hibernate.hbm2ddl.auto">create</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!-- BeanPostProcessor that processes @PersistenceContext for injecting EntityManager -->
+    <bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor"/>
+
+    <!-- BeanPostProcessor for exception translation -->
+    <bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
+
+    <!-- ============================ DAO DEFINITIONS =========================== -->
+
+    <jpa:repositories base-package="swt6.it.dao"/>
+
+    <context:component-scan base-package="swt6.it.dao">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Repository" />
+    </context:component-scan>
+
+    <!-- ====================== BUSINESS OBJECT DEFINIONS ======================= -->
+
+    <bean id="addressManager" class="swt6.it.logic.impl.AddressManagerImpl">
+        <property name="addressDao" ref="addressDao"/>
+    </bean>
+
+    <bean id="employeeManager" class="swt6.it.logic.impl.EmployeeManagerImpl">
+        <property name="employeeDao" ref="employeeDao"/>
+    </bean>
+
+    <bean id="issueManager" class="swt6.it.logic.impl.IssueManagerImpl">
+        <property name="issueDao" ref="issueDao"/>
+        <property name="logbookEntryDao" ref="logbookEntryDao"/>
+    </bean>
+
+    <bean id="logbookEntryManager" class="swt6.it.logic.impl.LogbookEntryManagerImpl">
+        <property name="logbookEntryDao" ref="logbookEntryDao"/>
+        <property name="issueDao" ref="issueDao"/>
+    </bean>
+
+    <bean id="projectManager" class="swt6.it.logic.impl.ProjectManagerImpl">
+        <property name="projectDao" ref="projectDao"/>
+        <property name="logbookEntryDao" ref="logbookEntryDao"/>
+    </bean>
+
+    <bean id="projectPhaseManager" class="swt6.it.logic.impl.ProjectPhaseManagerImpl">
+        <property name="projectPhaseDao" ref="projectPhaseDao"/>
+    </bean>
+
+    <bean id="testEnvironmentManager" class="swt6.it.logic.impl.TestEnvironmentManagerImpl">
+        <property name="addressDao" ref="addressDao"/>
+        <property name="projectPhaseDao" ref="projectPhaseDao"/>
+        <property name="projectDao" ref="projectDao"/>
+        <property name="issueDao" ref="issueDao"/>
+        <property name="logbookEntryDao" ref="logbookEntryDao"/>
+        <property name="employeeDao" ref="employeeDao"/>
+    </bean>
+
+    <!-- ======================== TRANSACTION DEFINIONS ========================= -->
+
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <!-- if there is only one factory, it will be found automatically -->
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+    </bean>
+
+    <!-- this is the standard config -> this line can be omitted if id is 'transactionManager' -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <!-- ========================= UIProcessComponent =========================== -->
+    <bean id="issueTrackerUIProcess" class="swt6.it.ui.impl.IssueTrackerUIProcessImpl">
+        <property name="addressManager" ref="addressManager"/>
+        <property name="employeeManager" ref="employeeManager"/>
+        <property name="issueManager" ref="issueManager"/>
+        <property name="logbookEntryManager" ref="logbookEntryManager"/>
+        <property name="projectManager" ref="projectManager"/>
+        <property name="projectPhaseManager" ref="projectPhaseManager"/>
+        <property name="testEnvironmentManager" ref="testEnvironmentManager"/>
+    </bean>
+
+    <bean id="jpaInterceptor" class="swt6.util.advice.JpaInterceptor">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+    </bean>
+
+    <aop:config>
+        <aop:pointcut id="uiOperations" expression="execution(public * swt6.it.ui..*(..))"/>
+        <aop:aspect ref="jpaInterceptor">
+            <aop:around method="holdEntityManager" pointcut-ref="uiOperations"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

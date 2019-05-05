@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/TestEnvironmentManagerImpl.java" line="183" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4834d46-d2d0-46a9-a052-fb9db6a31a5f" name="Default Changelist" comment="* Start HUe04">
+      <change beforePath="$PROJECT_DIR$/../../../Ue/Ue01/sensor-manager-osgi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue/Ue01/sensor-manager-osgi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ue/Ue01/sensor-manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue/Ue01/sensor-manager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ue/Ue02/issue-tracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue/Ue02/issue-tracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ue01/paint-osgi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue01/paint-osgi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ue01/work/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ue01/work/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="WorkLogDB" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="WorkLogDB" type="feb32156:DbDataSourceImpl" />
+        <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="WorkLogDB" type="feb32156:DbDataSourceImpl" />
+        <item name="JPA: schema" type="12aa88c4:DerbyImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/AddressManagerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/ProjectPhaseManagerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/swt6/it/client/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="59" column="50" lean-forward="true" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>10</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/dao/GenericDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/dao/AddressRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/AddressRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/AddressDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/ProjectPhaseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/LobookEntryManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/LogbookEntryManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/LogbookEntryManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/domain/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/domain/ProjectPhase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/AddressManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/util/advice/JpaInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/util/JpaUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/Testenvironment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/TestEnvironmentManager.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/util/PrintUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/ProjectDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/EmployeeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/EmployeeManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/IssueManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/util/UiUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/ProjectPhaseManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/IssueManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/client/TestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/TestEnvironmentManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/LogbookEntryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/ProjectManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/ProjectManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/domain/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/IssueDaoCustom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/IssueDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/dao/jpa/IssueDaoCustomImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/swt6.it.test/jpa.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/swt6.it.test/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/swt6.it.test/applicationContextTest.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/swt6/it/test/applicationContextTest.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/swt6/it/test/jpa.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/swt6/it/test/EmployeeManagerImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/swt6/it/test/IssueManagerImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/swt6/it/test/AddressManagerImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/swt6/it/test/LogbookEntryManagerImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/ui/interfaces/IssueTrackerUIProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/ui/impl/IssueTrackerUIProcessImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/client/IssueTracker.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/swt6/it/client/jpa.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/EmployeeManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/swt6/it/client/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/ProjectPhaseManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/AddressManagerImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="issue-tracker-spring" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="issue-tracker-spring" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="issue-tracker-spring" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="issue-tracker-spring" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="derby" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="16" />
+    <option name="y" value="22" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="issue-tracker-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="issue-tracker-spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="issue-tracker-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="issue-tracker-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="issue-tracker-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="issue-tracker-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="issue-tracker-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="issue-tracker-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="issue-tracker-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="issue-tracker-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="swt6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="issue-tracker-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="issue-tracker-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="swt6" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="issue-tracker-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="issue-tracker-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="swt6" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="issue-tracker-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="issue-tracker-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="issue-tracker-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="issue-tracker-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="issue-tracker-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="issue-tracker-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554062413262" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Ue/Ue01/sensor-manager" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.29885057" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="swt6.it.logic.impl" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="swt6.it.test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\Documents\1_6Sem\fh_6sem\SWT\Ue03\Spring\issue-tracker-spring\src\main\resources\swt6\it\test" />
+      <recent name="C:\Users\danie\Documents\1_6Sem\fh_6sem\SWT\Ue03\Spring\issue-tracker-spring\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\Documents\1_6Sem\fh_6sem\SWT\Ue03\Spring\issue-tracker-spring\src\main\resources\swt6.it.test" />
+      <recent name="C:\Users\danie\Documents\1_6Sem\fh_6sem\SWT\Ue03\Spring\issue-tracker-spring\src\main\resources\swt6\it\client" />
+      <recent name="C:\Users\danie\Documents\1_6Sem\fh_6sem\SWT\Ue03\Spring\issue-tracker-spring\src\main\java\swt6\it\domain" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="swt6.util" />
+      <recent name="swt6.util.advice" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="swt6.it.logic.impl" />
+      <recent name="swt6.it.ui.impl" />
+      <recent name="swt6.it.dao.jpa" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.IssueTracker">
+    <configuration name="IssueTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swt6.it.client.IssueTracker" />
+      <module name="issue-tracker-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="swt6.it.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swt6.it.client.TestClient" />
+      <module name="issue-tracker-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="swt6.it.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="swt6.it.test in issue-tracker-spring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="issue-tracker-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="swt6.it.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="swt6.it.test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestartDB" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="derby:stop" />
+                <option value="derby:drop-db" />
+                <option value="derby:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IssueTracker" />
+        <item itemvalue="JUnit.swt6.it.test in issue-tracker-spring" />
+        <item itemvalue="Application.TestClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4834d46-d2d0-46a9-a052-fb9db6a31a5f" name="Default Changelist" comment="" />
+      <created>1553677213015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553677213015</updated>
+      <workItem from="1553677220125" duration="27231000" />
+      <workItem from="1553881653233" duration="8745000" />
+      <workItem from="1553935850326" duration="18608000" />
+      <workItem from="1554026434051" duration="19564000" />
+      <workItem from="1554127737872" duration="986000" />
+      <workItem from="1554130007269" duration="21000" />
+      <workItem from="1554136028003" duration="8693000" />
+      <workItem from="1554186547259" duration="35000" />
+      <workItem from="1554194716356" duration="916000" />
+      <workItem from="1554389560731" duration="1057000" />
+    </task>
+    <task id="LOCAL-00001" summary="* Start HUe04">
+      <created>1553677290440</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553677290441</updated>
+    </task>
+    <task id="LOCAL-00002" summary="* Start HUe04">
+      <created>1553703096741</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553703096741</updated>
+    </task>
+    <task id="LOCAL-00003" summary="* Start HUe04">
+      <created>1553761402588</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553761402588</updated>
+    </task>
+    <task id="LOCAL-00004" summary="* Start HUe04">
+      <created>1553778513002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553778513002</updated>
+    </task>
+    <task id="LOCAL-00005" summary="* Start HUe04">
+      <created>1553789836882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553789836882</updated>
+    </task>
+    <task id="LOCAL-00006" summary="* Start HUe04">
+      <created>1553887175563</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553887175563</updated>
+    </task>
+    <task id="LOCAL-00007" summary="* Start HUe04">
+      <created>1553887592782</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553887592782</updated>
+    </task>
+    <task id="LOCAL-00008" summary="* Start HUe04">
+      <created>1553887783491</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553887783491</updated>
+    </task>
+    <task id="LOCAL-00009" summary="* Start HUe04">
+      <created>1553890565950</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1553890565950</updated>
+    </task>
+    <task id="LOCAL-00010" summary="* Start HUe04">
+      <created>1553896101264</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553896101264</updated>
+    </task>
+    <task id="LOCAL-00011" summary="* Start HUe04">
+      <created>1553896698549</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1553896698549</updated>
+    </task>
+    <task id="LOCAL-00012" summary="* Start HUe04">
+      <created>1553938011358</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1553938011358</updated>
+    </task>
+    <task id="LOCAL-00013" summary="* Start HUe04">
+      <created>1553941395718</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1553941395718</updated>
+    </task>
+    <task id="LOCAL-00014" summary="* Start HUe04">
+      <created>1553942909469</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1553942909469</updated>
+    </task>
+    <task id="LOCAL-00015" summary="* Start HUe04">
+      <created>1553943281631</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1553943281631</updated>
+    </task>
+    <task id="LOCAL-00016" summary="* Start HUe04">
+      <created>1553955544664</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1553955544664</updated>
+    </task>
+    <task id="LOCAL-00017" summary="* Start HUe04">
+      <created>1553956350799</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956350799</updated>
+    </task>
+    <task id="LOCAL-00018" summary="* Start HUe04">
+      <created>1553956692213</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956692213</updated>
+    </task>
+    <task id="LOCAL-00019" summary="* Start HUe04">
+      <created>1553961806361</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1553961806361</updated>
+    </task>
+    <task id="LOCAL-00020" summary="* Start HUe04">
+      <created>1554032783962</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1554032783962</updated>
+    </task>
+    <task id="LOCAL-00021" summary="* Start HUe04">
+      <created>1554035655233</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1554035655233</updated>
+    </task>
+    <task id="LOCAL-00022" summary="* Start HUe04">
+      <created>1554037632262</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1554037632262</updated>
+    </task>
+    <task id="LOCAL-00023" summary="* Start HUe04">
+      <created>1554040218157</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1554040218157</updated>
+    </task>
+    <task id="LOCAL-00024" summary="* Start HUe04">
+      <created>1554056188813</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1554056188813</updated>
+    </task>
+    <task id="LOCAL-00025" summary="* Start HUe04">
+      <created>1554060717486</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1554060717486</updated>
+    </task>
+    <task id="LOCAL-00026" summary="* Start HUe04">
+      <created>1554062390006</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1554062390006</updated>
+    </task>
+    <task id="LOCAL-00027" summary="* Start HUe04">
+      <created>1554143328587</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1554143328587</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="swt6_it_test_in_issue-tracker-spring - 2019.03.31 at 20h 55m 23s.xml">
+      <configuration name="swt6.it.test in issue-tracker-spring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="swt6_it_test_in_issue-tracker-spring - 2019.03.31 at 21h 05m 33s.xml">
+      <configuration name="swt6.it.test in issue-tracker-spring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="swt6_it_test_in_issue-tracker-spring - 2019.03.31 at 21h 10m 35s.xml">
+      <configuration name="swt6.it.test in issue-tracker-spring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="swt6_it_test_in_issue-tracker-spring - 2019.03.31 at 21h 15m 09s.xml">
+      <configuration name="swt6.it.test in issue-tracker-spring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="swt6_it_test_in_issue-tracker-spring - 2019.03.31 at 21h 16m 48s.xml">
+      <configuration name="swt6.it.test in issue-tracker-spring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="swt6_it_test_in_issue-tracker-spring - 2019.03.31 at 21h 19m 37s.xml">
+      <configuration name="swt6.it.test in issue-tracker-spring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="swt6_it_test_in_issue-tracker-spring - 2019.03.31 at 21h 25m 46s.xml">
+      <configuration name="swt6.it.test in issue-tracker-spring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="swt6_it_test_in_issue-tracker-spring - 2019.03.31 at 21h 26m 55s.xml">
+      <configuration name="swt6.it.test in issue-tracker-spring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="swt6_it_test_in_issue-tracker-spring - 2019.03.31 at 21h 31m 43s.xml">
+      <configuration name="swt6.it.test in issue-tracker-spring" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="swt6_it_test_in_issue-tracker-spring - 2019.04.01 at 20h 28m 14s.xml">
+      <configuration name="swt6.it.test in issue-tracker-spring" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="85856000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33208954" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Persistence" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Image Layers" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8623962" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32977462" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32977462" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32858837" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.25429553" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.12633263" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Persistence" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Image Layers" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719395" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32977462" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32977462" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32858837" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.25429553" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.12633263" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="* Start HUe04" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Start HUe04" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/util/advice/JpaInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/Testenvironment.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/LogbookEntryManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="110" lean-forward="true" selection-start-line="9" selection-start-column="110" selection-end-line="9" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/TestEnvironmentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/domain/LogbookEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/util/PrintUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/domain/IssueState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/ProjectDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/EmployeeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a87ccc76-4afb-42f2-abc5-9482d7a1c1e9/schema/JPA/table/EMPLOYEE_PROJECT">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/ProjectPhaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/util/UiUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="132" column="66" selection-start-line="132" selection-start-column="66" selection-end-line="132" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/IssueManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a87ccc76-4afb-42f2-abc5-9482d7a1c1e9/schema/JPA/table/LOGBOOKENTRY">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/interfaces/ProjectManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/domain/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="118" column="50" selection-start-line="118" selection-start-column="50" selection-end-line="118" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/IssueDaoCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/IssueDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/LogbookEntryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="69" lean-forward="true" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/IssueManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#2299#2300#0" expanded="true" />
+            <element signature="e#2353#2354#0" expanded="true" />
+            <element signature="e#2603#2604#0" expanded="true" />
+            <element signature="e#2659#2660#0" expanded="true" />
+            <element signature="e#2709#2710#0" expanded="true" />
+            <element signature="e#2750#2751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/swt6/it/test/jpa.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a87ccc76-4afb-42f2-abc5-9482d7a1c1e9/schema/JPA/table/EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/LogbookEntryManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/swt6/it/test/IssueManagerImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="98" column="54" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/swt6/it/test/EmployeeManagerImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="63" selection-start-line="15" selection-end-line="16" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/swt6/it/test/AddressManagerImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a87ccc76-4afb-42f2-abc5-9482d7a1c1e9/schema/JPA/table/ISSUE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/swt6/it/test/LogbookEntryManagerImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/ui/impl/IssueTrackerUIProcessImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#addressManager#0;n#IssueTrackerUIProcessImpl#0" />
+            <element signature="e#1837#1838#0" expanded="true" />
+            <element signature="method#listAllEmployees#0;class#IssueTrackerUIProcessImpl#0" />
+            <element signature="method#addNewProject#0;class#IssueTrackerUIProcessImpl#0" />
+            <element signature="method#listAllEmployeesWithProject#0;class#IssueTrackerUIProcessImpl#0" />
+            <element signature="method#addIssue#0;class#IssueTrackerUIProcessImpl#0" />
+            <element signature="method#updateIssue#0;class#IssueTrackerUIProcessImpl#0" />
+            <element signature="method#addEmployeeToIssue#0;class#IssueTrackerUIProcessImpl#0" />
+            <element signature="method#addLogbookEntry#0;class#IssueTrackerUIProcessImpl#0" />
+            <element signature="method#listAllIssuesFromProject#0;class#IssueTrackerUIProcessImpl#0" />
+            <element signature="method#listAllIssuesFromProjectGroupedByEmployee#0;class#IssueTrackerUIProcessImpl#0" />
+            <element signature="n#!!doc;n#getProjectFromUser#0;n#IssueTrackerUIProcessImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/client/TestClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/ui/interfaces/IssueTrackerUIProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/client/IssueTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/swt6/it/test/applicationContextTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a87ccc76-4afb-42f2-abc5-9482d7a1c1e9/schema/JPA/table/PROJECT">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/TestEnvironmentManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="120" column="57" lean-forward="true" selection-start-line="118" selection-start-column="12" selection-end-line="120" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#addressDao#0;n#TestEnvironmentManagerImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/swt6/it/client/jpa.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/AddressDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/dao/interfaces/EmployeeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE.jar!/org/springframework/cache/support/SimpleCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/concurrent/ConcurrentMapCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2273">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/support/SimpleCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="161" column="21" lean-forward="true" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/ProjectManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1086">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/EmployeeManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="36" column="64" lean-forward="true" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding>
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/dao/jpa/IssueDaoCustomImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/domain/ProjectPhase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/domain/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/AddressManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swt6/it/logic/impl/ProjectPhaseManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/swt6/it/client/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="50" lean-forward="true" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29885057" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JPA|issue-tracker-spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29885057" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
